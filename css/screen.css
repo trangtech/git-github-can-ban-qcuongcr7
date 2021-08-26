@@ -1,0 +1,43 @@
+.container{
+    width: 940px;
+    margin-left: 250px;
+    margin-right:250px;
+}
+
+ .content-area{
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+} 
+
+.sidebar{
+    width: 32%;
+    float: left;
+}
+
+.main-area{
+    width: 32%;
+    float: left;
+}
+
+.main-area1{
+    width: 32%;
+    float: left;
+}
+
+.fix{
+    clear:both;
+}
+
+ .group:before,
+.group:after{
+    content: "";
+    display: table;
+}
+
+.group:after{
+    clear:both;
+}
+
+.group{
+    zoom: 1;
+} 
